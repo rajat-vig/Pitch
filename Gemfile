@@ -8,6 +8,10 @@ gem 'devise'
 gem 'twitter-bootstrap-rails'
 gem 'devise-bootstrap-views'
 gem 'stripe'
+gem 'carrierwave' #Image uploader gem
+gem 'mini_magick' #Image Resizing gem
+gem 'fog' #To work with images in production
+
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
